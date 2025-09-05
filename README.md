@@ -1,5 +1,5 @@
 # MIL-GST
-A Python library to compute mean intercept length (MIL) and gradient structure (GST) 2nd order tenors 
+A Python script to compute mean intercept length (MIL) and gradient structure (GST) 2nd order tenors 
 
 This projects computes 2nd order fabric tensors using either the mean intercept length method [1] or the gradient strucutre tensor [2]. These concepts are used, e.g., in tissue biomechanics [3-7] or  to quantify material microstructres for computational models and analyses.  
 
