@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#python3 microCT-to-microstructure.py -i image-data/ -b y -im s187_T11_4_36_SEG_cube.mhd -t mil -w s187_T11_4_36_SEG-MIL-Test/
+
+#python3 microCT-to-microstructure.py -i image-data/ -b f -im Trabecular-Bone-Test.mhd -t gst -w test
+# python3 microCT-to-microstructure.py -i image-data/ -b f -im Trabecular-Bone-Test.mhd -t gst -w Trabecular-Bone-GST-Test/
+# python3 microCT-to-microstructure.py -i image-data/ -b f -im Trabecular-Bone-Test.mhd -t mil -w Trabecular-Bone-MIL-Test/
+
+python3 microCT-to-microstructure.py -i image-data/ -b f -im g323_T9_1_cube-1.mhd -t gst -w g323_T9_1_cube-GST-Test/
+#python3 microCT-to-microstructure.py -i image-data/ -b f -im g323_T9_1_cube-1.mhd -t mil -w g323_T9_1_cube-MIL-Test/
