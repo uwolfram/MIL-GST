@@ -5,18 +5,17 @@ This projects computes 2nd order fabric tensors using either the mean intercept 
 
 # Usage
 
-- for calculatung MIL call
+## for calculatung MIL call
 python3 microCT-to-microstructure.py -i image-data/ -b f -im example.mhd -t mil -w outputfolder/
 
 OR
 
 python3 microCT-to-microstructure.py -i image-data/ -b t -im example.mhd -t mil -w outputfolder/
 
-- for calculating GST
+## for calculating GST
 python3 microCT-to-microstructure.py -i image-data/ -b f -im example.mhd -t gst -w outputfolder/
 
-
-
+# References
 [1] Harrigan, T. & Mann, R. Characterisation of Microstructural Anisotropy in Orthotropic Materials Using a Second Rank Tensor. Journal of Materials Research 19, 761–767 (1984).
 [2] Tabor, Z. & Rokita, E. Quantifying anisotropy of trabecular bone from gray-level images. Bone 40, 966–972 (2007).
 [3] Zysset, P. A Review of Morphology-Elasticity Relationships in Human Trabecular Bone: Theories and Experiments. Journal of Biomechanics 36, 1469–1485 (2003). 
