@@ -6,15 +6,19 @@ This projects computes 2nd order fabric tensors using either the mean intercept 
 # Usage
 
 ## for calculatung MIL call
+```bash
 python3 microCT-to-microstructure.py -i image-data/ -b f -im example.mhd -t mil -w outputfolder/
+```
+
 
 OR
-
+```bash
 python3 microCT-to-microstructure.py -i image-data/ -b t -im example.mhd -t mil -w outputfolder/
-
+```
 ## for calculating GST call
+```bash
 python3 microCT-to-microstructure.py -i image-data/ -b f -im example.mhd -t gst -w outputfolder/
-
+````
 ## auxiliary files
 runMe ... bash script to execute different calls
 
