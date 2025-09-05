@@ -23,10 +23,13 @@ python3 microCT-to-microstructure.py -i image-data/ -b f -im example.mhd -t gst 
 runMe ... bash script to execute different calls
 
 ## test cases in image-data
-Test cases are data from three different sources:
+Test cases are µCT datasets of trabecular bone as representation of a microscrtructured material. These are taken from three different sources:
 * Trabecular bone* is courtsy of Dr Marta Pena FernÃ¡ndez (Heriot-Watt University, Edinburgh, UK)
 * s187* is taken from [8]
 * g323* is taken from [9]
+
+# Results
+Code delivers a cubic mesh (nodes and elements) of the trabecular bone samples as well as a *.vtm file of the ellipsoid representing the fabric tensor. Plotting [M, info] gives the fabric tensor M, bone volume fraction, eigenvalues, and eigenvectors. 
 
 # References
 [1] Harrigan, T. & Mann, R. Characterisation of Microstructural Anisotropy in Orthotropic Materials Using a Second Rank Tensor. Journal of Materials Research 19, 761–767 (1984).
