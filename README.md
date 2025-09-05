@@ -31,6 +31,8 @@ Test cases are µCT datasets of trabecular bone as representation of a microscrt
 # Results
 Code delivers a cubic mesh (nodes and elements) of the trabecular bone samples as well as a *.vtm file of the ellipsoid representing the fabric tensor. Plotting [M, info] gives the fabric tensor M, bone volume fraction, eigenvalues, and eigenvectors. 
 
+res-images holds a couple of images of how it should look like. Note that the tensor needs to be translated to the centre of the trabecular samples as it rests in (0,0,0) after the analyses.
+
 # References
 [1] Harrigan, T. & Mann, R. Characterisation of Microstructural Anisotropy in Orthotropic Materials Using a Second Rank Tensor. Journal of Materials Research 19, 761–767 (1984).
 
