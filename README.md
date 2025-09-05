@@ -15,6 +15,9 @@ python3 microCT-to-microstructure.py -i image-data/ -b t -im example.mhd -t mil 
 ## for calculating GST call
 python3 microCT-to-microstructure.py -i image-data/ -b f -im example.mhd -t gst -w outputfolder/
 
+## auxiliary files
+runMe ... bash script to execute different calls
+
 # References
 [1] Harrigan, T. & Mann, R. Characterisation of Microstructural Anisotropy in Orthotropic Materials Using a Second Rank Tensor. Journal of Materials Research 19, 761–767 (1984).
 
