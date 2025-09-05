@@ -22,6 +22,12 @@ python3 microCT-to-microstructure.py -i image-data/ -b f -im example.mhd -t gst 
 ## auxiliary files
 runMe ... bash script to execute different calls
 
+## test cases in image-data
+Test cases are data from three different sources:
+* Trabecular bone* is courtsy of Dr Marta Pena FernÃ¡ndez (Heriot-Watt University, Edinburgh, UK)
+* s187* is taken from [8]
+* g323* is taken from [9]
+
 # References
 [1] Harrigan, T. & Mann, R. Characterisation of Microstructural Anisotropy in Orthotropic Materials Using a Second Rank Tensor. Journal of Materials Research 19, 761–767 (1984).
 
@@ -36,3 +42,7 @@ runMe ... bash script to execute different calls
 [6] Schwiedrzik, J. & Zysset, P. An anisotropic elastic-viscoplastic damage model for bone tissue. Biomechanics and Modeling in Mechanobiology 12, 201–213 (2013).
 
 [7] Schmidt J & Hartmaier A. A new texture descriptor for data-driven constitutive modeling of anisotropic plasticity. J Mater Sci 58, 14029–14050 (2023) doi: 10.1007/s10853-023-08852-2
+
+[8] Wolfram, U., Gross, T., Pahr, D., Schwiedrzik, J., Wilke, H.-J. & Zysset, P. Fabric Based Tsai-Wu Yield Criteria for Vertebral Trabecular Bone in Stress and Strain Space. Journal of the Mechanical Behavior of     Biomedical Materials 15, 218–228 (2012).
+
+[9] Wolfram, U., Wilke, H.-J. & Zysset, P. Damage accumulation in vertebral trabecular bone depends on loading mode and direction. Journal of Biomechanics 44, 1164–1169 (2011).
