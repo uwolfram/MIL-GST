@@ -1,0 +1,8 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = True
+DimSize = 100 100 100
+ElementSize = 0.056 0.056 0.056
+ElementType = MET_USHORT
+ElementDataFile = Trabecular-Bone-Test.raw
